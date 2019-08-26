@@ -42,13 +42,3 @@ class NegociacoesView extends View {
 
 }
 
-
-/* total de volumes
-${
-      (function(){
-        let total = 0;
-        model.negociacoes.forEach(n => total+=n.volume);
-        return total;
-      })()
-}
-*/
