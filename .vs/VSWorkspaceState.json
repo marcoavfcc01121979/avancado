@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\js",
-    "\\js\\app",
-    "\\js\\app\\controllers",
-    "\\js\\app\\models",
-    "\\js\\app\\views"
+    "\\aluraframe",
+    "\\aluraframe\\client",
+    "\\aluraframe\\client\\js",
+    "\\aluraframe\\client\\js\\app",
+    "\\aluraframe\\client\\js\\app\\controllers",
+    "\\aluraframe\\client\\js\\app\\models",
+    "\\aluraframe\\client\\js\\app\\services",
+    "\\aluraframe\\client\\js\\app\\views"
   ],
-  "SelectedNode": "\\js\\app\\controllers\\NegociacaoController.js",
+  "SelectedNode": "\\aluraframe\\client\\js\\app\\controllers\\NegociacaoController.js",
   "PreviewInSolutionExplorer": false
 }
