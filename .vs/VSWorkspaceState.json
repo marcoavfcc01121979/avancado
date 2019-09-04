@@ -6,10 +6,11 @@
     "\\aluraframe\\client\\js",
     "\\aluraframe\\client\\js\\app",
     "\\aluraframe\\client\\js\\app\\controllers",
+    "\\aluraframe\\client\\js\\app\\helpers",
     "\\aluraframe\\client\\js\\app\\models",
     "\\aluraframe\\client\\js\\app\\services",
     "\\aluraframe\\client\\js\\app\\views"
   ],
-  "SelectedNode": "\\aluraframe\\client\\js\\app\\services\\HttpService.js",
+  "SelectedNode": "\\aluraframe\\client\\js\\app\\services\\NegociacaoService.js",
   "PreviewInSolutionExplorer": false
 }

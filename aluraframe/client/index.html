@@ -34,9 +34,7 @@
     </form>
 
     <div class="text-center">
-        <button onclick="negociacaoController.importaNegociacoes()" class="btn btn-primary text-center" type="button">
-            Importar Negociações
-        </button>
+
         <button onclick="negociacaoController.apaga()" class="btn btn-primary text-center" type="button">
             Apagar
         </button>
@@ -45,6 +43,7 @@
     <br>
 
     <div id='negociacaoesView'></div>
+    <script src="js/app/polyfill/fetch.js"></script>
     <script src="js/app/models/Negociacao.js"></script>
     <script src="js/app/models/Mensagem.js"></script>
     <script src="js/app/controllers/NegociacaoController.js"></script>
@@ -57,7 +56,9 @@
     <script src="js/app/services/ProxyFactory.js"></script>
     <script src="js/app/services/NegociacaoService.js"></script>
     <script src="js/app/services/HttpService.js"></script>
+    <script src="js/app/services/ConnectionFactory.js"></script>
     <script src="js/app/helpers/Bind.js"></script>
+    <script src="js/app/dao/NegociacaoDao.js"></script>
 
     <script type="text/javascript">
         let negociacaoController = new NegociacaoController();
